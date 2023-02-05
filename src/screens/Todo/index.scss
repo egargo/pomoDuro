@@ -1,0 +1,36 @@
+@import "../../scss/index.scss";
+
+#todo-container {
+  // position: fixed;
+  float: left;
+  width: 50%;
+  background-color: $WHITE;
+}
+
+#todos {
+  overflow-y: auto;
+  height: 512px;
+}
+
+#todo-card {
+  background-color: $WHITE;
+  border: 1px solid $GREY;
+  border-radius: 12px;
+  margin: 12px;
+  padding-left: 12px;
+  height: 64px;
+  box-shadow: 0px 6px 0px $GREY;
+  color: $BLACK;
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 12px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+#todo-card:hover {
+  box-shadow: 0px 6px 0px $RED;
+}
