@@ -1,0 +1,55 @@
+@import "../src/scss/index.scss";
+
+* {
+  user-select: none;
+  outline: none;
+  // margin: 0;
+  box-sizing: border-box;
+  font-family: "Varela Round", sans-serif;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 12px;
+  background-color: $GREY;
+  border-radius: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: 0px 6px 0px $GREY;
+  border-radius: 12px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $WHITE;
+  border-radius: 12px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: $WHITE;
+}
+
+#app {
+  border: 1px solid $GREY;
+  border-radius: 12px;
+  box-shadow: 0px 12px 0px $GREY;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  margin: 0% 20% 0% 20%;
+  overflow-y: hidden;
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
