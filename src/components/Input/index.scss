@@ -1,0 +1,36 @@
+@import "../../scss/index.scss";
+
+#input {
+  border: 0;
+  color: $BLACK;
+  background-color: $WHITE;
+  box-shadow: 0px 6px 0px $GREY;
+  border-radius: 12px;
+  height: 64px;
+  width: 212px;
+  font-size: 22px;
+  padding-left: 12px;
+  font-weight: bold;
+  margin: 12px;
+  border: 1px solid $GREY;
+}
+
+#input-mini {
+  border: 0;
+  color: $BLACK;
+  background-color: $WHITE;
+  box-shadow: 0px 6px 0px $GREY;
+  border-radius: 12px;
+  height: 48px;
+  margin: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px;
+  text-align: left;
+  border: 1px solid $GREY;
+}
+
+#input:focus,
+#input-mini:focus {
+  box-shadow: 0px 6px 0px $RED;
+}
