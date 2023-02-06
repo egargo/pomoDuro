@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/pomoDuro/static/css/main.0def2829.css",
+    "main.js": "/pomoDuro/static/js/main.65a12cf5.js",
+    "static/js/496.dc7ccd7f.chunk.js": "/pomoDuro/static/js/496.dc7ccd7f.chunk.js",
+    "service-worker.js": "/pomoDuro/service-worker.js",
+    "index.html": "/pomoDuro/index.html",
+    "main.0def2829.css.map": "/pomoDuro/static/css/main.0def2829.css.map",
+    "main.65a12cf5.js.map": "/pomoDuro/static/js/main.65a12cf5.js.map",
+    "496.dc7ccd7f.chunk.js.map": "/pomoDuro/static/js/496.dc7ccd7f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0def2829.css",
+    "static/js/main.65a12cf5.js"
+  ]
+}
